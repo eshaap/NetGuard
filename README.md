@@ -74,7 +74,7 @@ API docs available at: `http://127.0.0.1:8765/docs`
 
 ---
 
-## 📦 Build Windows Executable (.exe)
+## Build Windows Executable (.exe)
 
 ### Requirements
 ```bash
@@ -134,7 +134,7 @@ Copy the entire `dist/NetGuard/` folder to distribute the app.
 - View and manage blocked applications
 - Activity logging
 
-### 📋 Activity Logs
+### Activity Logs
 - Full history of all actions taken
 - Timestamps for every event
 
