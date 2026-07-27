@@ -1,0 +1,11 @@
+Time,Level,Process,Detail
+23:57:52,MEDIUM,mscopilot.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,ms-teams.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,MpDefenderCoreService.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,OneDrive.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,svchost.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,Code.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,msedgewebview2.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,msedge.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,claude.exe,Suspicious internet activity detected
+23:57:52,MEDIUM,chrome.exe,Suspicious internet activity detected

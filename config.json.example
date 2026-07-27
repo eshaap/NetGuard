@@ -1,0 +1,29 @@
+{
+  "_comment": "NetGuard Configuration File - Add your API keys here",
+  "_instructions": "Copy this file to config.json if you want to use JSON configuration. Blank or YOUR_* placeholder values are ignored and NetGuard uses demo/simulated results.",
+
+  "abuseipdb_key": "",
+  "_abuseipdb_url": "https://www.abuseipdb.com/register -> Free: 1000 checks/day",
+
+  "otx_key": "",
+  "_otx_url": "https://otx.alienvault.com/api -> Free, unlimited",
+
+  "google_safe_browsing_key": "",
+  "_gsb_url": "https://console.cloud.google.com -> Enable Safe Browsing API -> Free tier",
+
+  "gemini_api_key": "YOUR_API_KEY_HERE",
+  "_gemini_url": "https://aistudio.google.com/app/apikey -> Free tier available",
+  "_gemini_instructions": "Required for AI-powered alert explanations. Without this, you'll get basic local responses.",
+
+  "settings": {
+    "monitor_interval_seconds": 5,
+    "alert_risk_threshold": 7.0,
+    "max_alerts_in_memory": 100,
+    "api_port": 8765,
+    "enable_demo_alerts": false,
+    "bandwidth_control_enabled": true,
+    "bandwidth_threshold_kbps": 1024.0,
+    "bandwidth_auto_block": false,
+    "bandwidth_alert_cooldown_seconds": 30
+  }
+}
