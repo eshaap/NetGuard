@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ NetGuard — Real-Time Network Security Monitor
 
 A Windows standalone application for real-time network monitoring, threat detection, and parental controls.
@@ -224,3 +225,6 @@ For demo/testing purposes, the app works without admin rights using simulated da
 ## 📝 License
 
 MIT License — Free to use, modify, and distribute.
+=======
+# NetGuard
+>>>>>>> 3ce139f035dd2c802df808b3d061a2e908f0b1b8
