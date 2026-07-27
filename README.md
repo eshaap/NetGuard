@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-# ⚡ NetGuard — Real-Time Network Security Monitor
+# NetGuard — Real-Time Network Security Monitor
 
 A Windows standalone application for real-time network monitoring, threat detection, and parental controls.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 netguard/
@@ -29,7 +28,7 @@ netguard/
 
 ---
 
-## 🚀 Quick Start (Development Mode)
+## Quick Start (Development Mode)
 
 ### 1. Prerequisites
 - Python 3.9 or higher
@@ -106,30 +105,30 @@ Copy the entire `dist/NetGuard/` folder to distribute the app.
 
 ---
 
-## 🎯 Features
+## Features
 
-### 📊 Dashboard
+### Dashboard
 - Real-time bandwidth graph (upload/download KB/s)
 - Live stat cards: connections, alerts, blocked apps
 - Recent alerts panel with severity indicators
 
-### ⚙️ Processes Tab
+### Processes Tab
 - Per-process network usage (upload/download)
 - Active connection count per app
 - Block/unblock apps from internet access
 - Filter processes by name
 
-### 🚨 Alerts Tab
+### Alerts Tab
 - Real-time threat alerts with severity levels (High/Medium/Low)
 - Click any alert to see **AI-powered explanation** from Gemini
 - Risk scoring from 0-10 combining multiple threat sources
 
-### 🔍 Threat Checker Tab
+### Threat Checker Tab
 - Manually check any IP address
 - Check URLs for phishing/malware
 - Ask the AI assistant about security events
 
-### 👪 Parental Controls
+### Parental Controls
 - Safe Mode (auto-blocks malicious domains)
 - Block specific domains
 - View and manage blocked applications
@@ -141,7 +140,7 @@ Copy the entire `dist/NetGuard/` folder to distribute the app.
 
 ---
 
-## 🧠 Risk Scoring System
+## Risk Scoring System
 
 NetGuard combines multiple threat intelligence sources into a unified 0-10 risk score:
 
@@ -158,7 +157,7 @@ NetGuard combines multiple threat intelligence sources into a unified 0-10 risk 
 
 ---
 
-## ⚙️ Backend API Reference
+## Backend API Reference
 
 All endpoints available at `http://127.0.0.1:8765/api/`
 
@@ -182,7 +181,7 @@ Full interactive API docs: `http://127.0.0.1:8765/docs`
 
 ---
 
-## 🔐 Permissions Note
+## Permissions Note
 
 Some features require elevated privileges:
 - **Packet capture** (scapy): Run as Administrator
@@ -193,7 +192,7 @@ For demo/testing purposes, the app works without admin rights using simulated da
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 1. **This is a monitoring/detection tool** — actual network blocking at the OS level requires Windows Firewall API integration and administrator privileges
 2. **For production use**, consider running the backend as a Windows Service
@@ -203,7 +202,7 @@ For demo/testing purposes, the app works without admin rights using simulated da
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 **"Backend Offline" error**
 → Start `backend/main.py` first, wait 3 seconds, then launch frontend
@@ -222,7 +221,7 @@ For demo/testing purposes, the app works without admin rights using simulated da
 
 ---
 
-## 📝 License
+## License
 
 MIT License — Free to use, modify, and distribute.
 =======
